@@ -25,6 +25,7 @@ body, html {
         rgba(79, 79, 79, 0.2)
     );
     color: rgb(245, 245, 245);
+    box-shadow: 0 8px 15px rgba(63, 63, 63, 0.4);
 }
 
 .container h1 {
@@ -50,7 +51,7 @@ body, html {
 }
 
 .button {
-    background-color: rgb(91, 53, 135);
+    background-color: rgb(68, 47, 91);
     padding: 8px 20px;
     border-radius: 7px;
 }
