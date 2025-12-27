@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(200, 176, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 450px;
+    width: 400px;
+    padding: 30px;
+
+    border-radius: 7px;
+    background: linear-gradient(
+        to right,
+        rgba(72, 72, 72, 0.6),
+        rgba(79, 79, 79, 0.2)
+    );
+    color: rgb(245, 245, 245);
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info img {
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(63, 63, 63, 0.4);
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.button {
+    background-color: rgb(91, 53, 135);
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.button:hover{
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(170, 0, 255, 0.4);
+}
