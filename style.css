@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.img {}
 
 body {
-    background-color: blueviolet;
+    background-image: ;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
