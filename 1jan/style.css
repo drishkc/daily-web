@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #583838;
+    font-family: Arial, sans-serif;
+}
+
+.contribution {
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    gap: 5px;
+}
+
+.day {
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.day.active {
+    background: #4caf50;
+}
+
+.day:hover {
+    transform: scale(1.1);
+}
